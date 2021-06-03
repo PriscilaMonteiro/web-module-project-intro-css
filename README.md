@@ -1,7 +1,5 @@
 # Intro CSS Module Project
-https://codepen.io/unbreakablemaster/pen/ExWQbGY
 
-Inheritance &Specificity link: couldn't figure it out Nancy and Bob, still working on that.
 ## User Interface and Git
 
 ## Objectives
