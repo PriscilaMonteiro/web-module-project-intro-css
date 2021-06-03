@@ -41,7 +41,7 @@ blockquote, q {
     padding: 0;
     margin: 0%;
     max-width: 100%;
-    border: 1px solid gray;
+
 }
 /*General Styles*/
 
@@ -61,6 +61,8 @@ h1{
 }
 section{
     padding: 4% 0;
+    width:90%;
+    margin:0 auto;
 }
 a{
     text-decoration: none;
@@ -90,7 +92,35 @@ nav a{
     background-color: #FFCD69;
     margin-right: 10%;
 }
+ 
 
+/*main*/
+.salmon{
+    background-color: #DDB9A3;
+    color: white;
+    padding:2%;
+
+ }
+
+ .info div{
+     width:30%;
+     margin:5% auto;
+ }
+
+ .camper img{
+     width:25%;
+     margin-left:30%;
+ }
+ .campfire img{
+    width:25%;
+    margin-left:30%;
+}
+
+ .bold{
+     font-weight:bold;
+ }
+
+ 
 /*top section Styles*/
 .top{
     position:relative;
@@ -108,22 +138,31 @@ nav a{
     
 }
 .right{
-    width:45%;
-    margin-left:3%;
+    width:55%;
+    margin-left:5%;
     position:absolute;
-    top:40%0;
+    top:150px;
+    line-height: 3;
     
+}
+.right p{
+    line-height:1;
 }
 
 
 
 /*background image section*/
 
-.heroImg{
+.bg-img{
     height:50vh;
     background-image: url('assets/footer_img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
+    width:100%;
 
+}
+
+footer{
+    background-color: #f9e7dc;
 }
